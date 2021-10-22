@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(45deg, blueviolet, deeppink);
+}
+.registration-form{
+    width: 300px;
+    margin: 1% auto;
+    margin-top: 96px;
+    padding: 2%;
+    background-image: linear-gradient(-45deg, blueviolet, deeppink);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px black;
+}
+.registration-form .fa-user{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 10px solid violet;
+    background-color: purple;
+    box-shadow: 0 0 3px black;
+    margin: auto;
+    margin-top: -30%;
+    display: block;
+    font-size: 118px;
+    text-align: center;
+}
+.registration-form h1{
+    text-align: center;
+}
+.form-control{
+    width: 96%;
+    margin: 2% 0;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid violet;
+    font-size: 24px;
+    background-color: transparent;
+    color: white;
+}
+.form-control option,::placeholder{
+    color: purple;
+}
+.register-btn{
+    width: 96%;
+    margin: 2% 0;
+    padding: 2% 0;
+    outline: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    background-image: linear-gradient(45deg, blueviolet, deeppink);
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+}
+.register-btn:hover{
+    cursor: pointer;
+}
